@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.azul{
+    background-color: blue;
+    height: 50vh;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+/* Section caixa pai */
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: darkkhaki;
+    height: 100vh;
+    flex-wrap: wrap; /* quando um dos flex itens atinge o limite do conteudo o ultimo item passa para a linha de baixo*/
+    gap: 10px;
+}
